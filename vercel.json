@@ -5,6 +5,11 @@
   "installCommand": "npm install",
   "outputDirectory": "dist",
   "public": false,
+  "functions": {
+    "app/api/**/*.ts": {
+      "runtime": "nodejs18.x"
+    }
+  },
   "rewrites": [
     {
       "source": "/(.*)",
