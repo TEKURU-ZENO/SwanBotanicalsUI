@@ -28,7 +28,7 @@ const products = {
     price: 42,
     originalPrice: null,
     rating: 4.8,
-    reviews: 234,
+    reviewCount: 234,
     images: [productImage1, productImage2, productImage3],
     description: 'Transform your hair care routine with our signature botanical shampoo, carefully crafted with nature\'s finest ingredients. This gentle yet effective formula cleanses while nourishing your hair with botanical extracts and natural proteins.',
     keyIngredients: [
@@ -220,7 +220,7 @@ export default function ProductDetail() {
                 ))}
               </div>
               <span className="text-swan-botanical-charcoal/70">
-                {product.rating} ({product.reviews.length} reviews)
+                {product.rating} ({product.reviewCount} reviews)
               </span>
             </div>
 
