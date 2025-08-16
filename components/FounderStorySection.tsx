@@ -138,6 +138,7 @@ export default function FounderStorySection() {
                   whileHover={{ y: -2 }}
                   whileTap={{ scale: 0.95 }}
                   className="px-8 py-4 rounded-full text-white transition-all duration-300 swan-gradient-leaf-sage shadow-lg hover:shadow-xl"
+                  style={{ backgroundColor: 'var(--swan-sage-green)' }}
                 >
                   Read Elena's Full Story
                 </motion.button>
